@@ -1,0 +1,118 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  color: #fff;
+  font-family: arial;
+  background-color: #0e1218;
+}
+
+.container-color {
+  border: 1px solid transparent;
+  border-radius: 50px;
+  width: 540px;
+  height: 580px;
+  margin: 0 auto;
+  margin-top: 200px;
+}
+
+.container-card {
+  height: 490px;
+  width: 440px;
+  margin: 0 auto;
+  margin-top: 40px;
+  background-color: #0e1218;
+  border-radius: 10px;
+}
+
+.container-header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 20px;
+  padding: 20px;
+}
+
+.my-name {
+  font-size: 1.3rem;
+}
+
+.container-header img {
+  border-radius: 50%;
+}
+
+.container-information-dad {
+  display: flex;
+  justify-content: center;
+}
+
+.container-information {
+  width: 280px;
+  background-color: rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.container-followers {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.container-following {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.container-repository {
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+}
+
+.container-company {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.container-location {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.container-footer-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  padding: 20px;
+}
+
+.container-info-footer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+}
+
+.container-footer-card button {
+  width: 200px;
+  height: 45px;
+  border-radius: 7px;
+  border: none;
+  border: 1px solid gray;
+  background-color: #000;
+  color: #fff;
+  cursor: pointer;
+  font-weight: 600;
+}/*# sourceMappingURL=index.css.map */
