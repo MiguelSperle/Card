@@ -4,20 +4,6 @@ import useLocalStorage from "use-local-storage"; // usando uma lib, pra salvar n
 
 function Home() {
 
-   
-
-
-
-
-
-
-
-
-    
-    
-
-
-
 
    const [color, setColor] = useLocalStorage('color', 'black');
 
